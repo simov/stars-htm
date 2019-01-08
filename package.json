@@ -1,19 +1,20 @@
 {
-  "name": "stars",
+  "name": "stars-htm",
   "version": "0.0.0",
   "description": "GitHub Star History and Stats",
   "private": true,
   "keywords": [],
   "license": "MIT",
-  "homepage": "https://simov.github.io/stars/",
+  "homepage": "https://simov.github.io/stars-htm/",
   "author": "Simeon Velichkov <simeonvelichkov@gmail.com> (https://simov.github.io)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/simov/stars.git"
+    "url": "https://github.com/simov/stars-htm.git"
   },
   "dependencies": {},
   "devDependencies": {
     "csso-cli": "^2.0.2",
+    "htm": "^2.0.0",
     "html": "^1.0.0",
     "minimist": "^1.2.0",
     "plotly.js": "^1.43.1",

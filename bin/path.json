@@ -6,8 +6,7 @@
     ],
     "js": [
       "node_modules/preact/dist/preact.min.js",
-      "node_modules/plotly.js/dist/plotly-cartesian.min.js",
-      "lib/hyper.js"
+      "node_modules/plotly.js/dist/plotly-cartesian.min.js"
     ],
     "mjs": [
       "lib/app.js"
@@ -20,8 +19,7 @@
     ],
     "js": [
       "https://cdnjs.cloudflare.com/ajax/libs/preact/8.4.2/preact.min.js",
-      "https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.43.0/plotly-cartesian.min.js",
-      "lib/hyper.js"
+      "https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.43.0/plotly-cartesian.min.js"
     ],
     "mjs": [
       "lib/app.js"
@@ -35,6 +33,7 @@
     "js": [
       "https://cdnjs.cloudflare.com/ajax/libs/preact/8.4.2/preact.min.js",
       "https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.43.0/plotly-cartesian.min.js",
+      "https://unpkg.com/htm@2.0.0/dist/htm.js",
       "dist/stars.min.js"
     ]
   }

@@ -7,7 +7,7 @@
 
 ## tech stack
 
-- **render:** [Preact] + [Plotly] + [hyper]
+- **render:** [Preact] + [Plotly] + [htm]
 - **router:** [pushState] + [URLSearchParams]
 - **store:** `{}` + [Proxy]
 - **request:** [fetch]
@@ -23,7 +23,8 @@
 file       | size  | notes
 :---       | ---:  | :---
 **css**    | 1.0KB | -
-**app**    | 2.7KB | rollup + terser (no babel)
+**htm**    | 1.1KB | -
+**app**    | 2.9KB | rollup + terser (no babel)
 **preact** | 3.4KB | -
 **plotly** | 281KB | :grimacing: cartesian module only
 
@@ -53,10 +54,10 @@ Currently the GitHub API have a hard limit of up to 400 pages returned for starg
 > This project was inspired by [StarTrack-js][startrack]
 
 
-  [app]: https://simov.github.io/stars/
+  [app]: https://simov.github.io/stars-htm/
   [Preact]: https://github.com/developit/preact
   [Plotly]: https://github.com/plotly/plotly.js
-  [hyper]: https://github.com/simov/stars/blob/master/lib/hyper.js
+  [htm]: https://github.com/developit/htm
   [pushState]: https://developer.mozilla.org/en-US/docs/Web/API/History_API
   [URLSearchParams]: https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams
   [Proxy]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy
