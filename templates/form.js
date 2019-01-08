@@ -2,6 +2,9 @@
 import store from '../lib/store.js'
 import router from '../lib/router.js'
 
+import htm from 'https://unpkg.com/htm@2.0.0/dist/htm.mjs'
+var h = htm.bind(preact.h)
+
 
 var repo
 
@@ -29,11 +32,9 @@ var add = () => {
   router()
 }
 
-export default () =>
-  m('.form',
-    m('input[type=text][placeholder=user/repo]', {
-      onchange: change,
-      onkeyup: onkey,
-    }),
-    m('button', {onclick: add}, 'add'),
-  )
+export default () => h`
+  <div class="form">
+    <input type="text" placeholder="user/repo" onchange=${change} onkeyup=${onkey} />
+    <button onclick=${add}>add</button>
+  </div>
+`
